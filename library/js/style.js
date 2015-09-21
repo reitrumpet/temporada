@@ -7,8 +7,8 @@
 /* ### MODAL ### */
 
 $('#myModal').on('shown.bs.modal', function() {
-    $('#myInput').focus()
-})
+    $('#myInput').focus();
+});
 
 /* ### MODAL ### */
 
@@ -53,10 +53,73 @@ $(document).ready(function() {
 });
 
 
-/* ### LISTAGEM-MAIS CURTIDAS ### */
-
-
-
-/* ### LISTAGEM-MAIS CURTIDAS ### */
-
 /* ### LISTAGEM ### */
+
+/* ### CONTATO ### */
+
+$('#contact-form').bootstrapValidator({
+//        live: 'disabled',
+    message: 'This value is not valid',
+    feedbackIcons: {
+        valid: 'glyphicon glyphicon-ok',
+        invalid: 'glyphicon glyphicon-remove',
+        validating: 'glyphicon glyphicon-refresh'
+    },
+    fields: {
+        Name: {
+            validators: {
+                notEmpty: {
+                    message: 'The Name is required and cannot be empty'
+                }
+            }
+        },
+        email: {
+            validators: {
+                notEmpty: {
+                    message: 'The email address is required'
+                },
+                emailAddress: {
+                    message: 'The email address is not valid'
+                }
+            }
+        },
+        Message: {
+            validators: {
+                notEmpty: {
+                    message: 'The Message is required and cannot be empty'
+                }
+            }
+        }
+    }
+});
+
+/* ### CONTATO ### */
+
+
+/* ### DESTAQUE CATEGORIA ### */
+
+$(document).ready(function() {
+    $('#myCarousel').carousel({
+        interval: 4000
+    });
+
+    var clickEvent = false;
+    $('#myCarousel').on('click', '.nav a', function() {
+        clickEvent = true;
+        $('.nav li').removeClass('active');
+        $(this).parent().addClass('active');
+    }).on('slid.bs.carousel', function(e) {
+        if (!clickEvent) {
+            var count = $('.nav').children().length - 1;
+            var current = $('.nav li.active');
+            current.removeClass('active').next().addClass('active');
+            var id = parseInt(current.data('slide-to'));
+            if (count == id) {
+                $('.nav li').first().addClass('active');
+            }
+        }
+        clickEvent = false;
+    });
+});
+
+/* ### DESTAQUE CATEGORIA ### */

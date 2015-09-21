@@ -2,7 +2,7 @@
 $server = $_SERVER['SERVER_NAME'];
 $endereco = $_SERVER ['REQUEST_URI'];
 
-$url="http://".$server.$endereco;
+$url = "http://" . $server . $endereco;
 ?>
 
 <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -30,11 +30,19 @@ $url="http://".$server.$endereco;
                     echo "active";
                 }
                 ?>"><a href="./">In&iacute;cio</a></li>
-                <li class="<?php
-                if ($url == "http://localhost/temporada/categorias.php") {
-                    echo "active";
-                }
-                ?>"><a href="./categorias.php">Categorias</a></li>
+                <!-- DropDown -->
+
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Categorias<b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="infantil.php">Infantil</a></li>
+                        <li><a href="#">A&ccedil;&atilde;o</a></li>
+                        <li><a href="#">Com&eacute;dia</a></li>
+                        <li><a href="#">Fic&ccedil;&atilde;o</a></li>
+                        <li><a href="#">Terror</a></li>
+                        <li><a href="#">Brasileiro</a></li>
+                    </ul>
+                </li>
                 <li class="<?php
                 if ($url == "http://localhost/temporada/contatos.php") {
                     echo "active";
@@ -45,7 +53,7 @@ $url="http://".$server.$endereco;
                 <li class=""><button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Autentique-se</button></li>
 
                 <!-- MODEL AUTH -->
-                
+
                 <!-- Modal -->
                 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">

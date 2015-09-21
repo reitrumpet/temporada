@@ -195,7 +195,7 @@ li button{
                                                  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=1)";
 }
 .panel .panel-footer { padding: 8px !important; background-color: #f9f9f9 !important; border-bottom-right-radius: 0 !important; border-bottom-left-radius: 0 !important; }	
-.panel .panel-footer h4 { display: inline; font: 400 normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #34495e margin: 0 !important; padding: 0 !important; }
+.panel .panel-footer h4 { display: inline; font: 400 normal 1.125em "Roboto",Arial,Verdana,sans-serif; color: #34495; margin: 0 !important; padding: 0 !important; }
 .panel .panel-footer i.glyphicon { display: inline; font-size: 1.125em; cursor: pointer; }
 .panel .panel-footer i.glyphicon-thumbs-up { color: #1abc9c; }
 .panel .panel-footer i.glyphicon-thumbs-down { color: #e74c3c; padding-left: 5px; }
@@ -296,11 +296,33 @@ li button{
 
 /* ### UTILIDADES ### */
 
-.branco{
+.branco{ color: #ffffff; opacity: 1.0 !important;}
+.preto{ color: #000000; opacity: 1.0 !important;}
 
-    color: #ffffff;
+.bgBranco{
+    background-color: #ffffff; 
+    opacity: 0.5;     
+    right: 0% !important;
+    left: 0% !important;
+    padding-bottom: 50px !important;}
+.bgPreto{
+    background-color: #000000; 
+    opacity: 0.5;     
+    right: 0% !important;
+    left: 0% !important;
+    padding-bottom: 50px !important;}
 
-}
+.topo10{margin-top: 10px;}  .topo60{margin-top: 60px;}
+.topo20{margin-top: 20px;}  .topo70{margin-top: 70px;}
+.topo30{margin-top: 30px;}  .topo80{margin-top: 80px;}
+.topo40{margin-top: 40px;}  .topo90{margin-top: 90px;}
+.topo50{margin-top: 50px;}  .topo100{margin-top: 100px;}
+
+.rodape10{margin-bottom: 10px;}  .rodape60{margin-bottom: 60px;}
+.rodape20{margin-bottom: 20px;}  .rodape70{margin-bottom: 70px;}
+.rodape30{margin-bottom: 30px;}  .rodape80{margin-bottom: 80px;}
+.rodape40{margin-bottom: 40px;}  .rodape90{margin-bottom: 90px;}
+.rodape50{margin-bottom: 50px;}  .rodape100{margin-bottom: 100px;}
 
 /* ### UTILIDADES ### */
 
@@ -354,4 +376,55 @@ li button{
 /* ### RODAPÉ ### */
 
 
+/* ### CONTATO ### */
+.contact-form{ margin-top:15px;}
+.contact-form .textarea{ min-height:220px; resize:none;}
+.form-control{ box-shadow:none; border-color:#eee; height:49px;}
+.form-control:focus{ box-shadow:none; border-color:#00b09c;}
+.form-control-feedback{ line-height:50px;}
+.main-btn{ background:#00b09c; border-color:#00b09c; color:#fff;}
+.main-btn:hover{ background:#00a491;color:#fff;}
+.form-control-feedback {
+    line-height: 50px;
+    top: 0px;
+}
+/* ### CONTATO ### */
 
+/* ### FB ### */
+
+#fb-root {
+    display: none;
+}
+
+/* To fill the container and nothing else */
+
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+    width: 100% !important;
+}
+
+/* ### FB ### */
+
+
+/* ### DESTAQUE CATEGORIA ### */
+
+body { padding-top: 20px; }
+#myCarousel .nav a small {
+    display:block;
+}
+#myCarousel .nav {
+    background:#eee;
+}
+#myCarousel .nav a {
+    border-radius:0px;
+}
+
+#carousel-example-generic{ 
+
+}
+.imgCategoria{
+
+
+}
+
+
+/* ### DESTAQUE CATEGORIA ### */
