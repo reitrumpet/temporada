@@ -26,7 +26,7 @@
 
                                                 <p>A s&eacute;rie Japonesa conseguiu alcan&ccedil;ar 999 likes.</p>
                                                 <h2>Dragon Ball Super</h2>
-                                                <h3><a href="">Assistir</a></h3>
+                                                <h3><a href="serie.php">Assistir</a></h3>
                                             </div>
                                         </div>
                                     </blockquote>
@@ -39,7 +39,7 @@
 
                                                 <p>S&eacute;rie de sucesso americana conseguiu 800 likes. </p>
                                                 <h2>Two and a half men</h2>
-                                                <h3><a href="">Assistir</a></h3>
+                                                <h3><a href="serie.php">Assistir</a></h3>
                                             </div>
                                         </div>
                                     </blockquote>
@@ -52,7 +52,7 @@
 
                                                 <p>S&eacute;rie americana que conseguiu 789 likes.</p>
                                                 <h2>Agents of Shield</h2>
-                                                <h3><a href="">Assistir</a></h3>
+                                                <h3><a href="serie.php">Assistir</a></h3>
                                             </div>
                                         </div>
                                     </blockquote>

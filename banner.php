@@ -18,7 +18,7 @@
                         <p class="carousel-caption-text hidden-sm hidden-xs">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dignissim aliquet rutrum. Praesent vitae ante in nisi condimentum egestas. Aliquam.
                         </p>
-                        <button type="button" class="btn btn-success btn-banner"><a class="branco" href="">Assista agora</a></button>
+                        <button type="button" class="btn btn-success btn-banner"><a class="branco" href="serie.php">Assista agora</a></button>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@
                         <p class="carousel-caption-text hidden-sm hidden-xs">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dignissim aliquet rutrum. Praesent vitae ante in nisi condimentum egestas. Aliquam.
                         </p>
-                        <button type="button" class="btn btn-success"><a class="branco" href="">Assista agora</a></button>
+                        <button type="button" class="btn btn-success"><a class="branco" href="serie.php">Assista agora</a></button>
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@
                         <p class="carousel-caption-text hidden-sm hidden-xs">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dignissim aliquet rutrum. Praesent vitae ante in nisi condimentum egestas. Aliquam.
                         </p>
-                        <button type="button" class="btn btn-success"><a class="branco" href="">Assista agora</a></button>
+                        <button type="button" class="btn btn-success"><a class="branco" href="serie.php">Assista agora</a></button>
                     </div>
                 </div>
             </div>

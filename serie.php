@@ -24,15 +24,22 @@
 
                     </div>
 
-                    <div class="ha-heading-parallax">DC X Marvel</div>
+                    <div class="ha-heading-parallax">Dragon Ball Super</div>
 
                 </div>
 
             </div>
 
 
-            <div class="container">
+            <div class="container col-xs-18 col-sm-12">
+                <div class="topo50 rodape20 col-xs-9 col-sm-6 branco resp">
+                    <h2>Dragon Bal Super Epis&oacute;dio 1</h2>
+                    <iframe width="853" height="480" src="https://www.youtube.com/embed/videoseries?list=PLRi2P55kp_7TiANcUzSMEhDFvodt1pvbF" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-xs-9 col-sm-6">
 
+
+                </div>
             </div>
 
             <div class="container">

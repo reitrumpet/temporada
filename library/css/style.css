@@ -21,7 +21,7 @@ li button{
     margin-top: 7px;
 }
 
-
+.container{width: 1140px !important;}
 
 
 /* ### Menu 2 ### */
@@ -327,7 +327,10 @@ li button{
 .rodape40{margin-bottom: 40px;}  .rodape90{margin-bottom: 90px;}
 .rodape50{margin-bottom: 50px;}  .rodape100{margin-bottom: 100px;}
 
-/* ### UTILIDADES ### */
+.floatL{float: left;}
+.floatR{float: right;}
+
+/* ### RECURSOS ### */
 
 
 /* ### RODAPÉ ### */
@@ -437,7 +440,7 @@ body { padding-top: 20px; }
 
 .ha-bg-parallax {
 
-    background: url(http://images-cdn.moviepilot.com/image/upload/c_fill,h_400,w_1200/t_mp_quality/untitled-1-dc-vs-marvel-who-is-the-ultimate-villain-round-1-jpeg-78993.jpg) 50% -195px no-repeat fixed;
+    background: url(http://www.tokyo3.com.br/foto/jpg/noticias-galerias/full/312/1/dragon-ball-super-logo.jpg) 50% -195px no-repeat fixed;
 
     -moz-background-size: cover;
 
@@ -571,4 +574,32 @@ div.product-chooser div.product-chooser-item input{
 
 
 
+/* ### PLAYER SERIE ### */
+
+.resp {
+    
+}
+
+/* To fill the container and nothing else */
+
+.resp {
+    width: 100% !important;
+}
+
+.resp iframe {
+    width: 100% !important;
+}
+
+/* ### PLAYER SERIE ### */
+
 /* ### SERIE ### */
+
+/* ### LOGO ### */
+
+.logo{
+    width: 150px;
+    height: 112px;  
+    margin-top: -15px;
+}
+
+/* ### LOGO ### */

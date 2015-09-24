@@ -15,7 +15,7 @@ $url = "http://" . $server . $endereco;
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./">Temporada</a>
+            <a class="navbar-brand" href="./"><img class="logo" src="library/images/logo.png" title="Temporada" alt="Temporada" /></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
